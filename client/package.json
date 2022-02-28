@@ -1,0 +1,32 @@
+{
+  "name": "vanilajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "webpack-dev-server --mode development --port 3000",
+    "build" : "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/runtime": "^7.17.2",
+    "babel": "^6.23.0",
+    "css-loader": "^6.6.0",
+    "data.js": "^0.12.11",
+    "query-string": "^7.1.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-dev-server": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

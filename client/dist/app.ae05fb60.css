@@ -1,0 +1,19 @@
+.columns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.post_container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.author{
+    cursor: pointer;
+}
+.date_column{
+    cursor: pointer;
+}
+.title{
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=/app.ae05fb60.css.map */
